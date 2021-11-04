@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resorts - Tara Gala </title>
+
+    <link rel="stylesheet" href="../styles/styles.css">
+  
+    <!-- fonts -->
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto&family=Ubuntu:wght@700&display=swap" rel="stylesheet">
+  
+         <!-- Bootstrap -->
+         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+        
+         <style>
+            body{
+               margin: 0;
+               padding: 0;
+               background-color: #B0B0B1;
+           }
+        </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark  bg-dark sticky-top">
+        <a class="navbar-brand mx-4" href="../index.html"> <img src="/images/logo.png" alt="" width="50px"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse justify-content-end text-center " id="navbarSupportedContent">
+          <ul class="navbar-nav p-2 text-uppercase ">
+                <li class="nav-item active">
+                <a class="nav-link" href="../index.html">Home</a>
+                </li>
+           
+                <li class="nav-item dropdown ">
+                        <a class="nav-link dropdown-toggle " href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Gallery
+                        </a>
+                    <div class="dropdown-menu  dropdown-menu-dark text-center " aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="../webpages/trendingspots.html">Trending Destinations</a>
+                        <a class="dropdown-item" href="../webpages/resorts.html">Resorts</a>
+                        <a class="dropdown-item" href="../webpages/hotels.html">Hotel</a>
+                    
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../webpages/blogcategory.html">Blogs</a>
+                </li>
+          
+                <li class="nav-item">
+                    <a class="nav-link" href="../webpages/contact-us.html">Contact Us</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+ 
+        <h1 class="text-center justify-content-center web-titles"> Resorts</h1>
+        <div class="container px-4 ">
+            <div class="row g-2 ">
+              <div class="col-md-9 ">
+                  <div onclick="location.href='../articles_sample/resort-bohol-beach-club.html';"  class=" Resort-tiles1  h-all">
+                      <div>
+                        <div class="d-flex justify-content-end "> 
+                            <a href=""><i class="bi bi-share socials"></i></a></i>
+                        </div>
+                      </div>
+                       
+                        <h2 class="Container-titles">Bohol Beach Club</h2>
+                        <h3 class="Container-Description mt-0">Bohol</h3>
+                  </div>
+              </div>
+              <div class="col-md-3">
+                    <div onclick="location.href='../articles_sample/resort-plantation-bay.html';" class=" Resort-tiles2 h-all">
+                        <div>
+                            <div class="d-flex justify-content-end "> 
+                                <a href=""><i class="bi bi-share socials"></i></a></i>
+                            </div>
+                          </div>
+                         <h2 class="Container-titles">Plantation Bay </h2>
+                         <h3 class="Container-Description">Cebu</h3>
+                    </div>
+                </div>
+                <div class="col-md-3 ">
+                    <div  onclick="location.href='../articles_sample/resort-two-season.html';" class=" Resort-tiles3  h-all">
+                        <div>
+                            <div class="d-flex justify-content-end "> 
+                                <a href=""><i class="bi bi-share socials"></i></a></i>
+                            </div>
+                          </div>
+                          <h2 class="Container-titles">Two Season </h2>
+                          <h3 class="Container-Description">Palawan</h3>
+                    </div>
+                </div>
+                <div class="col-md-9">
+                      <div onclick="location.href='../articles_sample/resort-minoloc-island.html';"class=" Resort-tiles4  h-all">
+                        <div>
+                            <div class="d-flex justify-content-end "> 
+                                <a href=""><i class="bi bi-share socials"></i></a></i>
+                            </div>
+                          </div>
+                           <h2 class="Container-titles">Minoloc Island</h2>
+                           <h3 class="Container-Description">Palawan</h3>
+                      </div>
+                  </div>
+            </div>
+
+            
+          </div>
+  
+
+    
+          <footer class="py-5 bg-dark mt-4">
+            <div class="container"><p class="m-0 text-center text-white">Copyright &copy; TaraGala.PH</p></div>
+        </footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    <!-- This will be live on Deployment -->
+    <div class="chat-plugin">
+        <!-- Messenger Chat Plugin Code -->
+    <div id="fb-root"></div>
+
+    <!-- Your Chat Plugin code -->
+    <div id="fb-customer-chat" class="fb-customerchat">
+    </div>
+
+    <script>
+    var chatbox = document.getElementById('fb-customer-chat');
+    chatbox.setAttribute("page_id", "104311092055104");
+    chatbox.setAttribute("attribution", "biz_inbox");
+
+    window.fbAsyncInit = function() {
+        FB.init({
+        xfbml            : true,
+        version          : 'v12.0'
+        });
+    };
+
+    (function(d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s); js.id = id;
+        js.src = 'https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js';
+        fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));
+    </script>
+
+</div>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous">
+</script>
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous">
+</script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+</script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous">
+</script>
+</body>
+</html>
