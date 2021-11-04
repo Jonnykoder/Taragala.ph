@@ -180,7 +180,7 @@ h1>gal-title{
 }
 .cont1{
     /* Trending Spots */
-    background-image: url("/images/bangui-windmills.jpg");
+    background-image: url("../images/bangui-windmills.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: 50% 50%; 
@@ -189,7 +189,7 @@ h1>gal-title{
 
 
 .cont2{
-    background-image: url("/images/hotels.jpg");
+    background-image: url("../images/hotels.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: 50% 50%;
@@ -197,7 +197,7 @@ h1>gal-title{
 
 
 .cont3{
-    background-image: url("/images/resorts.jpg");
+    background-image: url("../images/resorts.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: 50% 50%;
@@ -228,7 +228,7 @@ h1>gal-title{
 
 }
 .contactus-header{
-    background-image: url("/images/contact-us.jpg");
+    background-image: url("../images/contact-us.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: 50% 50%;
@@ -258,7 +258,7 @@ h1>gal-title{
     letter-spacing: -1px;
 }
 .hotel-tiles1{
-    background-image: url("/images/hotel-amanpulo.webp");
+    background-image: url("../images/hotel-amanpulo.webp");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: 50% 50%;
@@ -266,21 +266,21 @@ h1>gal-title{
    
 }
 .hotel-tiles2{
-    background-image: url("/images/hotel-peninsula.webp");
+    background-image: url("../images/hotel-peninsula.webp");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: 50% 50%;
     
 }
 .hotel-tiles3{
-    background-image: url("/images/hotel-shangrila.webp");
+    background-image: url("../images/hotel-shangrila.webp");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: 50% 50%;
    
 }
 .hotel-tiles4{
-    background-image: url("/images/hotel-raffles.webp");
+    background-image: url("../images/hotel-raffles.webp");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: 50% 50%;
@@ -288,25 +288,25 @@ h1>gal-title{
 }
 /* Resorts */
 .Resort-tiles1{
-    background-image: url("/images/resort-bohol-beach-club.jpg");
+    background-image: url("../images/resort-bohol-beach-club.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: 50% 50%;
 }
 .Resort-tiles2{
-    background-image: url("/images/resort-plantation-bay.jpg");
+    background-image: url("../images/resort-plantation-bay.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: 50% 50%;
 }
 .Resort-tiles3{
-    background-image: url("/images/resort-two-seasons.jpg");
+    background-image: url("../images/resort-two-seasons.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: 50% 50%;
 }
 .Resort-tiles4{
-    background-image: url("/images/resort-minoloc.jpg");
+    background-image: url("../images/resort-minoloc.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: 50% 50%;
@@ -315,25 +315,25 @@ h1>gal-title{
 /* Trending Destinations */
 
 .trending-tiles1{
-    background-image: url("/images/resort-bohol-beach-club.jpg");
+    background-image: url("../images/resort-bohol-beach-club.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: 50% 50%;
 }
 .trending-tiles2{
-    background-image: url("/images/resort-plantation-bay.jpg");
+    background-image: url("../images/resort-plantation-bay.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: 50% 50%;
 }
 .trending-tiles3{
-    background-image: url("/images/resort-two-seasons.jpg");
+    background-image: url("../images/resort-two-seasons.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: 50% 50%;
 }
 .trending-tiles4{
-    background-image: url("/images/resort-minoloc.jpg");
+    background-image: url("../images/resort-minoloc.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: 50% 50%;
@@ -373,7 +373,7 @@ h1>gal-title{
 
 /* Blog Category */
 .blogcategory-container{
-    background-image: url("/images/el-nido.jpg");
+    background-image: url("../images/el-nido.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: 50% 50%;
@@ -432,7 +432,7 @@ header {
   
   @media (pointer: coarse) and (hover: none) {
     header {
-      background: url('/media/trending-balabac.mp4') black no-repeat center center scroll;
+      background: url('../media/trending-balabac.mp4') black no-repeat center center scroll;
     }
   
     header video {
