@@ -373,7 +373,7 @@ h1>gal-title{
 
 /* Blog Category */
 .blogcategory-container{
-    background-image: url("/images/el-nido.jpg");
+    background-image: url("../images/el-nido.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: 50% 50%;
